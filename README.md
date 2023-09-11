@@ -1,5 +1,6 @@
-### Hi there 👋
-
+# Repository of Noh Dong Hun
+#### Department of AI and Software, Gachon University majoring in AI (2023~)
+Welcome to visit !
 <!--
 **nodh020403/nodh020403** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
