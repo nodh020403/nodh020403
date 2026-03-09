@@ -15,8 +15,12 @@
 ## 프로젝트
 - 소설 번역 어플 프로젝트 (TransNovel)
   - GPT API를 활용한 소설 사이트 번역 모바일 애플리케이션
-  - 담당: 기획 / 나이 기반 번역 필터링 기능 구현
-  - https://github.com/woojinwoojin/MobileProgramming_FinalProject_Team-8_TransNovel
+  - 담당:
+    - 설정 화면에서 사용자의 생년월일과 성별 코드를 기반으로 성인 여부 검증 및 저장
+    - 성인/미성년자 여부에 따른 번역 프롬프트 자동 설정 기능 구현
+    - 나이 기반 번역 필터링 로직 개발 및 테스트
+  - https://github.com/woojinwoojin/MobileProgramming_FinalProject_Team-8_TransNovel (원본 프로젝트)
+
 
 <!--
 **nodh020403/nodh020403** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
