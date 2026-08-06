@@ -5,7 +5,7 @@
 Java와 Spring Boot를 중심으로 백엔드 개발을 공부하고 있습니다.
 요구사항을 도메인 규칙과 API로 구체화하고, 트랜잭션과 테스트를 통해 검증하는 과정을 중요하게 생각합니다.
 
-[Velog](https://velog.io/@nodh020403/posts) · [Email](mailto:nodh020403@gmail.com)
+[Velog](https://velog.io/@nodh020403/posts) 
 
 ---
 
@@ -40,7 +40,6 @@ Java와 Spring Boot를 중심으로 백엔드 개발을 공부하고 있습니�
 * 사용자·동네·반려견·Active Pet 도메인의 API와 비즈니스 규칙 구현
 * 반려견 PublicTag 검색 시 사용자·반려견 상태, 소유권 및 차단 관계 검증
 * PostgreSQL·Flyway 기반 데이터 제약조건과 마이그레이션 적용
-* 단위·API·PostgreSQL 통합 테스트 작성
 * Redis Streams 기반 이메일 인증 기능 개발 진행
 
 ---
