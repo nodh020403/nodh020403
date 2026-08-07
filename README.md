@@ -2,16 +2,15 @@
 
 ### Backend Developer
 
-Java와 Spring Boot를 중심으로 백엔드 개발을 공부하고 있습니다.
-요구사항을 도메인 규칙과 API로 구체화하고, 트랜잭션과 테스트를 통해 검증하는 과정을 중요하게 생각합니다.
+Java와 Spring Boot를 중심으로 백엔드 개발 경험을 쌓고 있습니다.
+요구사항을 도메인 규칙과 API로 구체화하고, 트랜잭션과 테스트를 통해 비즈니스 로직을 검증하는 과정을 중요하게 생각합니다.
 
-[Velog](https://velog.io/@nodh020403/posts) 
+[Velog](https://velog.io/@nodh020403/posts) · [Email](mailto:nodh020403@gmail.com)
 
 ---
 
 ## About Me
 
-* 가천대학교 AI·소프트웨어학부 인공지능전공
 * 가상융합기술 아카데미 5기 백엔드 과정 수강
 * Spring Boot 기반 REST API와 관계형 데이터 모델링 경험
 * 현재 반려동물 커뮤니티 서비스 **Dogether** 백엔드 개발 중
@@ -20,12 +19,12 @@ Java와 Spring Boot를 중심으로 백엔드 개발을 공부하고 있습니�
 
 ## Tech Stack
 
-| Category      | Stack                                                                 |
-| ------------- | --------------------------------------------------------------------- |
-| Backend       | `Java` `Spring Boot` `Spring MVC` `Spring Data JPA` `Spring Security` |
-| Database      | `MySQL` `PostgreSQL` `Redis` `H2`                                     |
-| Test          | `JUnit 5` `Mockito` `AssertJ` `MockMvc` `Testcontainers`              |
-| Infra & Tools | `Docker` `Flyway` `GitHub Actions` `AWS` `Git` `GitHub`               |
+| Category       | Stack                                                                 |
+| -------------- | --------------------------------------------------------------------- |
+| Backend        | `Java` `Spring Boot` `Spring MVC` `Spring Data JPA` `Spring Security` |
+| Database       | `MySQL` `PostgreSQL` `Redis` `H2`                                     |
+| Testing        | `JUnit 5` `Mockito` `AssertJ` `MockMvc` `Testcontainers`              |
+| DevOps & Tools | `Docker` `Flyway` `GitHub Actions` `AWS` `Git`                        |
 
 ---
 
@@ -38,8 +37,9 @@ Java와 Spring Boot를 중심으로 백엔드 개발을 공부하고 있습니�
 `Java 25` `Spring Boot` `Spring Data JPA` `Spring Security` `PostgreSQL` `Redis` `Flyway`
 
 * 사용자·동네·반려견·Active Pet 도메인의 API와 비즈니스 규칙 구현
-* 반려견 PublicTag 검색 시 사용자·반려견 상태, 소유권 및 차단 관계 검증
-* PostgreSQL·Flyway 기반 데이터 제약조건과 마이그레이션 적용
+* 반려견 최대 등록 수, Active Pet 전환, 상태·소유권 조건 등 Pet 도메인 규칙 구현
+* PublicTag 검색 시 사용자·반려견 상태와 차단 관계를 검증하는 노출 정책 적용
+* Pet 상태·삭제 조건과 관계 무결성을 DB 제약조건 및 Flyway Migration에 반영
 * Redis Streams 기반 이메일 인증 기능 개발 진행
 
 ---
@@ -53,7 +53,7 @@ Java와 Spring Boot를 중심으로 백엔드 개발을 공부하고 있습니�
 `Java` `Spring Boot` `Spring Data JPA` `Spring Security` `MySQL` `Flyway`
 
 * 상품·배송지·쿠폰 도메인의 API와 비즈니스 로직 구현
-* 쿠폰 수량에 비관적 락을 적용하고 유니크 제약으로 동시·중복 발급 방어
+* 쿠폰 발급에 비관적 락과 유니크 제약을 적용해 동시·중복 발급 방어
 * 복합 검색·정렬·페이징과 계층별 테스트 코드 작성
 
 ---
@@ -104,3 +104,4 @@ Java·Spring Boot 기반 백엔드 개발, REST API 설계, 데이터 모델링,
 `2023.03 – 휴학 중`
 
 AI·소프트웨어학부 인공지능전공
+
